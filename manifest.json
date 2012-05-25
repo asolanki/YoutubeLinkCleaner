@@ -1,0 +1,12 @@
+{
+    "name": "Youtube Link Cleaner",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Changes Youtube links to an ad-free, full-screen link with the Google Youtube API",
+    "content_scripts": [
+      {
+          "matches": ["http://www.youtube.com/*"],
+          "js": ["content_script.js"]
+      }
+    ]
+}
